@@ -6,6 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: whitesmoke;
   background-image: linear-gradient(#4481eb, #04befe);
+  background-attachment: fixed;
 }
 
 .content {
