@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script type="module" src="./dist/main.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Firebase <span style="color: whitesmoke">With</span> Fireship</h1>
+      <div class="mySection">
+        <section id="isSignedOut">
+          <button id="loginbtn" class="btn">Login</button>
+        </section>
+        <div class="signedIn">
+          <section id="isSignedIn" hidden="true">
+            <div id="userDetails"></div>
+          </section>
+
+          <section>
+            <ol id="alternateList"></ol>
+            <div class="alterBtnGroup">
+              <button id="createAlternate" class="btn" hidden="true">
+                Generate Phrase
+              </button>
+              <button id="logoutBtn" class="btn" hidden="true">Logout</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./dist/main.js"></script>
+  </body>
+</html>
